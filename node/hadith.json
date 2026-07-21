@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "service": "hadith-collections",
+  "data": {
+    "collections": [
+      {
+        "key": "bukhari",
+        "name": "Sahih al-Bukhari",
+        "arabic_name": "صحيح البخاري",
+        "author": "Imam Bukhari",
+        "reliability": "Sahih",
+        "total_hadiths": 7580
+      },
+      {
+        "key": "muslim",
+        "name": "Sahih Muslim",
+        "arabic_name": "صحيح مسلم",
+        "author": "Imam Muslim",
+        "reliability": "Sahih",
+        "total_hadiths": 7360
+      },
+      {
+        "key": "abudawud",
+        "name": "Sunan Abu Dawud",
+        "arabic_name": "سنن أبي داود",
+        "author": "Abu Dawud",
+        "reliability": "Hasan/Sahih",
+        "total_hadiths": 5272
+      },
+      {
+        "key": "tirmidhi",
+        "name": "Jami at-Tirmidhi",
+        "arabic_name": "جامع الترمذي",
+        "author": "Imam Tirmidhi",
+        "reliability": "Hasan/Sahih",
+        "total_hadiths": 3926
+      },
+      {
+        "key": "ibnmajah",
+        "name": "Sunan Ibn Majah",
+        "arabic_name": "سنن ابن ماجه",
+        "author": "Ibn Majah",
+        "reliability": "Hasan/Sahih",
+        "total_hadiths": 4340
+      },
+      {
+        "key": "nasai",
+        "name": "Sunan an-Nasa'i",
+        "arabic_name": "سنن النسائي",
+        "author": "Imam an-Nasa'i",
+        "reliability": "Sahih",
+        "total_hadiths": 5679
+      },
+      {
+        "key": "malik",
+        "name": "Muwatta Malik",
+        "arabic_name": "موطأ مالك",
+        "author": "Imam Malik",
+        "reliability": "Sahih",
+        "total_hadiths": 1829
+      }
+    ],
+    "total_hadiths": 35986,
+    "fetched_at": "2026-05-20T16:14:55.268Z",
+    "source": "fawazahmed0/hadith-api (via jsDelivr CDN)"
+  },
+  "timestamp": "2026-07-14T17:40:34.700Z"
+}
