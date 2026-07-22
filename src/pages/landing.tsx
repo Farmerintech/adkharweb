@@ -76,10 +76,10 @@ function Hero() {
               View Features
             </a>
           </div>
-
-          <p className="mt-4 text-sm font-semibold text-white/70">
-            Direct Android APK download.
-          </p>
+   
+          <a href="https://adkhar-lac.vercel.app" className="mt-4 text-sm font-semibold text-white/70" >
+            Use Adkhar on web
+          </a>
         </div>
 
         <PhonePreview />
@@ -198,6 +198,13 @@ function Footer() {
           className="font-black text-[#D4AF37]"
         >
           Download APK
+        </a>
+         <a
+                href={ "https://adkhar-lac.vercel.app"}
+          download="adkar-app.apk"
+          className="inline-flex rounded-full bg-[#4A154B] px-8 py-4 font-black text-white shadow-xl shadow-[#4A154B]/20 transition hover:scale-[1.03]"
+        >
+          Use Adkhar on web
         </a>
       </div>
     </footer>
