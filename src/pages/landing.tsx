@@ -1,5 +1,7 @@
-const APK_URL = "/adkar-app.apk";
+const APK_URL ="https://github.com/Farmerintech/adkharweb/releases/download/adkhar/adkhar.apk"
+const userAgent = navigator.userAgent || navigator.vendor 
 
+const isAndroid = /Android/i.test(userAgent);
 export default function AdkarLandingPage() {
   return (
     <main className="min-h-screen bg-[#FFFDF7] text-[#4A154B]">
@@ -23,7 +25,7 @@ function StickyHeader() {
         </a>
 
         <a
-          href={APK_URL}
+          href={isAndroid ? APK_URL: "https://adkhar-lac.vercel.app"}
           download="adkar-app.apk"
           className="rounded-full bg-[#D4AF37] px-5 py-3 text-sm font-black text-[#4A154B] shadow-lg shadow-black/20 transition hover:scale-[1.03]"
         >
@@ -60,7 +62,7 @@ function Hero() {
 
           <div className="mt-9 flex flex-wrap gap-4">
             <a
-              href={APK_URL}
+              href={isAndroid ? APK_URL: "https://adkhar-lac.vercel.app"}
               download="adkar-app.apk"
               className="rounded-full bg-[#D4AF37] px-7 py-4 text-base font-black text-[#4A154B] shadow-xl shadow-black/25 transition hover:scale-[1.03]"
             >
@@ -172,12 +174,13 @@ function Features() {
 
       <div className="mt-12 text-center">
         <a
-          href={APK_URL}
+                href={isAndroid ? APK_URL: "https://adkhar-lac.vercel.app"}
           download="adkar-app.apk"
           className="inline-flex rounded-full bg-[#4A154B] px-8 py-4 font-black text-white shadow-xl shadow-[#4A154B]/20 transition hover:scale-[1.03]"
         >
           Download Adkar App APK
         </a>
+
       </div>
     </section>
   );
