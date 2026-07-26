@@ -1,4 +1,4 @@
-const APK_URL ="https://github.com/Farmerintech/adkharweb/releases/download/adkhar/adkhar.apk"
+const APK_URL ="https://github.com/Farmerintech/adkhar/releases/download/adkhar/adkhar-apkv_1.0.1.apk"
 const userAgent = navigator.userAgent || navigator.vendor 
 
 const isAndroid = /Android/i.test(userAgent);
